@@ -7,8 +7,9 @@
         "pip_requirements"
       ],
       "groupName": "Testing/Linting Tools",
-      "minimumReleaseAge": "3 days",
+      "minimumReleaseAge": "14 days",
       "matchPackageNames": [
+        "/^ansible-lint/",
         "/^black/",
         "/^coverage/",
         "/^flake8/",
