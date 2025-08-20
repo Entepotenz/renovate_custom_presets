@@ -1,0 +1,17 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "packageRules": [
+        {
+            "groupName": "GitHub Artifact Actions",
+            "enabled": true,
+            "matchManagers": [
+                "github-actions"
+            ],
+            "minimumReleaseAge": "7 days",
+            "matchUpdateTypes": [
+                "minor",
+                "patch"
+            ]
+        }
+    ]
+}
