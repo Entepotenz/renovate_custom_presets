@@ -1,0 +1,12 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "extends": [
+        ":enableVulnerabilityAlerts",
+        "config:best-practices",
+        "customManagers:dockerfileVersions",
+        "helpers:pinGitHubActionDigests",
+        "mergeConfidence:all-badges",
+        "security:openssf-scorecard"
+    ],
+    "osvVulnerabilityAlerts": true
+}
