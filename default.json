@@ -8,5 +8,8 @@
         "mergeConfidence:all-badges",
         "security:openssf-scorecard"
     ],
-    "osvVulnerabilityAlerts": true
+    "osvVulnerabilityAlerts": true,
+    "vulnerabilityAlerts": {
+        "enabled": true
+    }
 }
