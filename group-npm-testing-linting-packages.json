@@ -1,0 +1,40 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "packageRules": [
+        {
+            "matchManagers": [
+                "npm"
+            ],
+            "groupName": "Node.js Test & Lint Dependencies",
+            "minimumReleaseAge": "14 days",
+            "matchPackageNames": [
+                "/^@eslint/js/",
+                "/^@stylelint/postcss-css-in-js/",
+                "/^@typescript-eslint/eslint-plugin/",
+                "/^@typescript-eslint/parser/",
+                "/^cypress/",
+                "/^eslint-config-prettier/",
+                "/^eslint-plugin-cypress/",
+                "/^eslint-plugin-import/",
+                "/^eslint-plugin-node/",
+                "/^eslint-plugin-prettier/",
+                "/^eslint-plugin-promise/",
+                "/^eslint-plugin-react/",
+                "/^eslint-plugin-svelte/",
+                "/^eslint-plugin-vue/",
+                "/^eslint/",
+                "/^htmlhint/",
+                "/^prettier/",
+                "/^stylelint/",
+                "/^typescript-eslint/"
+            ],
+            "matchUpdateTypes": [
+                "minor",
+                "patch"
+            ],
+            "matchDepTypes": [
+                "devDependencies"
+            ]
+        }
+    ]
+}
